@@ -1,4 +1,4 @@
-
+```js
 function almostAlwaysTrue(a) {
   console.log(a == a)
 }
@@ -34,4 +34,4 @@ inMostCasesTrue(NaN)        // false
 inMostCasesTrue(undefined)  // false
 
 // -----
-
+```
