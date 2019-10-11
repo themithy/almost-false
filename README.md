@@ -34,4 +34,12 @@ inMostCasesTrue(NaN)        // false
 inMostCasesTrue(undefined)  // false
 
 // -----
+
+function couldThisBeTrue(a) {
+  console.log(a == a + 1)
+}
+
+couldThisBeTrue(2**53)  // true - float64 precision loss
+
+// -----
 ```
